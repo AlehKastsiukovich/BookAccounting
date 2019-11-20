@@ -1,29 +1,42 @@
 package by.etc.part6.task1;
 
 
-import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 
 public class Administrator {
+    private String email;
     private Catalog catalog;
-    private static List<Client> clientList;
-    private static File userAuthentification;
-    private static String email;
+    private List<Client> clientList;
+    private File userAuthentification;
+
+
+    public Administrator() {
+
+    }
+
+    public Administrator(String email, Catalog catalog, List<Client> list, File auth) {
+        this.email = email;
+        this.catalog = catalog;
+        clientList = list;
+        userAuthentification = auth;
+    }
 
     public Administrator(Catalog catalog) {
+        email = "administrator@gmail.com";
         this.catalog = catalog;
         userAuthentification = new File("authentication.txt");
         clientList = new ArrayList<>();
-        email = "administrator@gmail.com";
     }
 
-    public static String getEmail() {
+    public String getEmail() {
         return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public Catalog getCatalog() {
@@ -34,54 +47,19 @@ public class Administrator {
         this.catalog = catalog;
     }
 
-    public void addBook(Book book) {
-        catalog.getBookList().add(book);
-        catalog.writeCatalog(catalog.getBookList());
-
-        for (Client cl : clientList) {
-            System.out.println("New book added and send to mail : " + cl.getUserEmail() +". Book info: " + book.toString());
-        }
+    public List<Client> getClientList() {
+        return clientList;
     }
 
-    public void removeBook() {
-        catalog.showCatalog();
-
-        System.out.println("Choose number of book to remove: ");
-        Scanner scanner = new Scanner(System.in);
-        int number = scanner.nextInt();
-
-        catalog.getBookList().remove(number);
-        catalog.writeCatalog(catalog.getBookList());
-        catalog.showCatalog();
+    public void setClientList(List<Client> clientList) {
+        this.clientList = clientList;
     }
 
-    public void addClient(Client client) {
-        clientList.add(client);
+    public File getUserAuthentification() {
+        return userAuthentification;
     }
 
-    public void addAuthData(Client client) {
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter(userAuthentification, true))) {
-            bw.write(client.getLogin() + "\t");
-            String pass = Encrypter.encryptPass(client);
-            bw.write(pass + "\n");
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    public void acceptUsersBooks(Book book) {
-        System.out.println("Book to propose is "+book.toString());
-        String decision = null;
-
-        System.out.println("Do you want to add this book?");
-        Scanner scanner = new Scanner(System.in);
-        decision = scanner.nextLine();
-
-        if (decision.equals("yes")) {
-            addBook(book);
-        } else {
-            System.out.println("book does not added!");
-        }
+    public void setUserAuthentification(File userAuthentification) {
+        this.userAuthentification = userAuthentification;
     }
 }

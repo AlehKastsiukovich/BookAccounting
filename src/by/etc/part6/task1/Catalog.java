@@ -1,14 +1,18 @@
 package by.etc.part6.task1;
 
-import java.io.BufferedWriter;
+
 import java.io.File;
-import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Catalog {
-    private static List<Book> bookList = new ArrayList<>();
+    private List<Book> bookList = new ArrayList<>();
     private File file;
+
+    public Catalog(List<Book> list, File file) {
+        bookList = list;
+        this.file = file;
+    }
 
     public Catalog() {
         file = new File("file.txt");
@@ -19,22 +23,15 @@ public class Catalog {
         return bookList;
     }
 
-    public void showCatalog() {
-        for (int i = 0; i < bookList.size(); i++) {
-            System.out.println(i + " " + bookList.get(i));
-        }
+    public void setBookList(List<Book> bookList) {
+        this.bookList = bookList;
     }
 
-    public void writeCatalog(List<Book> books) {
-        file.delete();
-        file = new File("file.txt");
+    public File getFile() {
+        return file;
+    }
 
-        for(Book b: bookList) {
-            try (BufferedWriter bw = new BufferedWriter(new FileWriter(file, true))) {
-                bw.write(b.toString());
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
+    public void setFile(File file) {
+        this.file = file;
     }
 }

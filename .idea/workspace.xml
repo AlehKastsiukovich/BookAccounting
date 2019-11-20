@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d912930-e033-4d86-892a-88095601aa92" name="Default Changelist" comment="" />
+    <list default="true" id="8d912930-e033-4d86-892a-88095601aa92" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/etc/part6/task1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BookAccounting/by/etc/part6/task1/Administrator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookAccounting/by/etc/part6/task1/Administrator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BookAccounting/by/etc/part6/task1/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookAccounting/by/etc/part6/task1/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BookAccounting/by/etc/part6/task1/Catalog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookAccounting/by/etc/part6/task1/Catalog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BookAccounting/by/etc/part6/task1/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookAccounting/by/etc/part6/task1/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BookAccounting/by/etc/part6/task1/ElectronicBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookAccounting/by/etc/part6/task1/ElectronicBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BookAccounting/by/etc/part6/task1/PaperBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookAccounting/by/etc/part6/task1/PaperBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BookAccounting/by/etc/part6/task1/TestCatalog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BookAccounting/by/etc/part6/task1/TestCatalog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/etc/part6/task1/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/part6/task1/Administrator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/etc/part6/task1/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/part6/task1/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/etc/part6/task1/Catalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/part6/task1/Catalog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/etc/part6/task1/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/part6/task1/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/etc/part6/task1/ElectronicBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/part6/task1/ElectronicBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/etc/part6/task1/PaperBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/etc/part6/task1/PaperBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/etc/part6/task1/TestCatalog.java" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,15 +31,97 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/Administrator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="27" />
+            <state relative-caret-position="220">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
-                <element signature="e#663#664#0" expanded="true" />
+                <element signature="e#1370#1371#0" expanded="true" />
+                <element signature="e#1434#1435#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/EBookFormat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/ElectronicBookView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1232">
+              <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/PaperBook.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/Encrypter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/ClientLogic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="814">
+              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+              <folding>
+                <element signature="e#131#132#0" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/AdministratorLogic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="34" column="60" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,19 +137,30 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/by/etc/part6/task1/PaperBook.java" />
-        <option value="$PROJECT_DIR$/src/by/etc/part6/task1/ElectronicBook.java" />
         <option value="$PROJECT_DIR$/file.txt" />
-        <option value="$PROJECT_DIR$/src/by/etc/part6/task1/Book.java" />
-        <option value="$PROJECT_DIR$/src/by/etc/part6/task1/Catalog.java" />
         <option value="$PROJECT_DIR$/authentication.txt" />
         <option value="$PROJECT_DIR$/src/by/etc/part6/task1/Encrypter.java" />
-        <option value="$PROJECT_DIR$/src/by/etc/part6/task1/Client.java" />
-        <option value="$PROJECT_DIR$/src/by/etc/part6/task1/TestCatalog.java" />
         <option value="$PROJECT_DIR$/src/by/etc/part6/task1/Administrator.java" />
+        <option value="$PROJECT_DIR$/src/by/etc/part6/task1/BookLogic.java" />
+        <option value="$PROJECT_DIR$/src/by/etc/part6/task1/Book.java" />
+        <option value="$PROJECT_DIR$/src/by/etc/part6/task1/Catalog.java" />
+        <option value="$PROJECT_DIR$/src/by/etc/part6/task1/ClientView.java" />
+        <option value="$PROJECT_DIR$/src/by/etc/part6/task1/CatalogView.java" />
+        <option value="$PROJECT_DIR$/src/by/etc/part6/task1/CatalogLogic.java" />
+        <option value="$PROJECT_DIR$/src/by/etc/part6/task1/AdministratorLogic.java" />
+        <option value="$PROJECT_DIR$/src/by/etc/part6/task1/Client.java" />
+        <option value="$PROJECT_DIR$/src/by/etc/part6/task1/BookView.java" />
+        <option value="$PROJECT_DIR$/src/by/etc/part6/task1/ElectronicBookView.java" />
+        <option value="$PROJECT_DIR$/src/by/etc/part6/task1/ElectronicBook.java" />
+        <option value="$PROJECT_DIR$/src/by/etc/part6/task1/PaperBook.java" />
+        <option value="$PROJECT_DIR$/src/by/etc/part6/task1/TestCatalog.java" />
+        <option value="$PROJECT_DIR$/src/by/etc/part6/task1/ClientLogic.java" />
       </list>
     </option>
   </component>
@@ -65,7 +176,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -81,10 +191,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -100,8 +212,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="TestCatalog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="by.etc.part6.task1.TestCatalog" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.etc.part6.task1.Main" />
       <module name="BookAccounting" />
       <extension name="coverage">
         <pattern>
@@ -115,7 +227,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestCatalog" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -133,18 +245,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1488" height="878" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20658264" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2147651" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="DB Browser" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3297587" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32960895" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -153,6 +266,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3297587" />
+      <window_info anchor="bottom" id="DB Execution Console" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -171,13 +285,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/Language.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/io/Writer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
@@ -187,99 +294,181 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/file.txt" />
     <entry file="file://$PROJECT_DIR$/authentication.txt" />
-    <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/TestCatalog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/BookAccounting.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/PaperBook.java">
+    <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/CatalogLogic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="10" column="29" selection-start-line="7" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/Encrypter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/ElectronicBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="39" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="9" selection-end-column="39" />
-          <folding>
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/EBookFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="959">
-          <caret line="63" column="43" lean-forward="true" selection-start-line="62" selection-start-column="36" selection-end-line="63" selection-end-column="43" />
-          <folding>
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/Catalog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="176">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="9" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state relative-caret-position="946">
+          <caret line="43" column="34" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="34" />
           <folding>
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
+            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="e#1145#1146#0" expanded="true" />
+            <element signature="e#1195#1196#0" expanded="true" />
+            <element signature="e#1232#1233#0" expanded="true" />
+            <element signature="e#1263#1264#0" expanded="true" />
+            <element signature="e#1313#1314#0" expanded="true" />
+            <element signature="e#1353#1354#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BookAccounting.iml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/CatalogView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/BookView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/Language.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/ElectronicBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/ClientView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/Administrator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="27" />
+        <state relative-caret-position="220">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#1370#1371#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/EBookFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/ElectronicBookView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1232">
+          <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/PaperBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/ClientLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/AdministratorLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="34" column="60" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/etc/part6/task1/Encrypter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
